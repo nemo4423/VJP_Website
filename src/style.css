@@ -1,3 +1,76 @@
+
+body {
+    background-color: black;
+    margin: auto;
+    max-width: 1440px;
+    font-size: 36px;
+    color: white;
+    min-width: 330px;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 500px;
+    background-image: url('images/basicphone 3.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+
+    list-style: none;
+}
+
+
+li {
+    padding: 0% 2%;
+    font-size: 24px;
+}
+
+#fill {
+    height: 300px;
+}
+
 h1 {
-    background-color: aquamarine;
+    position: absolute;
+    font-size: 26px;
+    font-weight: bolder;
+    top: 90px;
+    left: 30px;
+}
+
+h2 {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 20;
+    top: 140px;
+    left: 30px;
+}
+
+/* #metroImg {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    width: 100%;
+    min-height: 333px;
+} */
+
+#skateImg {
+    width: 100%;
+    height:auto;
+}
+
+
+
+@media (min-width: 550px) {
+    body {
+        background-color: green;
+    }
 }
