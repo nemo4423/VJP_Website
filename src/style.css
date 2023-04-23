@@ -84,7 +84,10 @@ h2 {
     height: 60%;
     width: 75%;
     border-radius: 10px;
+    opacity: 0.5;
   }
+
+#teksti {opacity: 2.0;}
 
 .iso {
     position: relative;
