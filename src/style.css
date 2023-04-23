@@ -74,3 +74,16 @@ h2 {
         background-color: green;
     }
 }
+
+.boxi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.iso {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
