@@ -81,3 +81,23 @@ function funkkari() {
         else {alert("Choose one option.")}}    
     else {alert("vastaa toisiin kysymyksiin")}
 }
+
+
+const nappula = document.getElementById("sendButton");
+
+
+
+nappula.addEventListener("click", myFunktio)
+
+
+const n = document.getElementsByClassName("nappis")
+
+function myFunktio() {
+    const nimitiedot = document.getElementById("name").value
+    const viestitiedot = document.getElementById("viesti").value
+    const kommentti = document.getElementById("tekstituleetaha")
+    kommentti.innerHTML = nimitiedot+': '+ viestitiedot 
+    nappula.remove()
+}
+
+n.addEventListener("click",function() {console.log("clikc")})
