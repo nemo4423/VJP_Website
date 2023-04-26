@@ -6,6 +6,7 @@ body {display: flex;
     background-color: black;
     margin: auto;
     max-width: 1440px;
+    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 36px;
     color: white; 
     min-width: 330px;
@@ -80,9 +81,7 @@ h2 {
   overflow-y: scroll; /* enable vertical scrolling */
   z-index: 2; /* make sure the text is on top of the rectangle */
   font-size: 12px;
-  font-family: 'Be Vietnam';
-  font-style: thin;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 20px;
   letter-spacing: 0.13em;
 
