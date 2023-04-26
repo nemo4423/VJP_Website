@@ -99,13 +99,17 @@ h2 {
   }
 
 
-.kysely {display:flex;
-        align-items: center;
-        flex-direction: row;}  
+.painikkeet {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;}  
+        
 .ympyra {
     height: 50px;
     width: 50px;
     border-radius: 30px;
+    margin: 10px;
 }
 .ympyra:hover {
     background-color: cadetblue;
