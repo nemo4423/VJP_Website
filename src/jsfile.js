@@ -1,5 +1,57 @@
 
-const nappi = document.getElementById("laheta");
+let numero = 0
+
+let loopkierrokset = 0
+
+const n1 = document.getElementById("N1");
+const n2 = document.getElementById("N2");
+const n3 = document.getElementById("N3");
+const n4 = document.getElementById("N4");
+const n5 = document.getElementById("N5");
+
+n1.addEventListener("click", add)
+n2.addEventListener("click", add)
+n3.addEventListener("click", add)
+n4.addEventListener("click", add)
+n5.addEventListener("click", add)
+
+
+function add(element) {
+    console.log(element)
+    if (element.id == "N1") {
+        numero += 1
+    } else if (element.id == "N2") {
+        numero += 2
+    } else if (element.id == "N3") {
+        numero += 3
+    } else if  (element.id == "N4") {
+        numero += 4
+    } else if (element.id == "N5") {
+        numero += 5
+    }
+    loopkierrokset += 1
+    if (loopkierrokset == 1) {
+        document.getElementById("kysymys").innerHTML = "toka kyssäri"
+    } else if (loopkierrokset == 2) {
+        document.getElementById("kysymys").innerHTML = "kolmas kyssäri"
+    } else if (loopkierrokset == 3) {
+        document.getElementById("kysymys").innerHTML = "neljäs kyssäri"
+    } else if (loopkierrokset == 4) {
+        document.getElementById("kysymys").innerHTML = "viides kyssäri"
+    } if (loopkierrokset == 5) {
+        if (numero === 0) {document.getElementById("palsu").innerHTML="Did you even try?"}
+        else if (numero < 6 ) {document.getElementById("palsu").innerHTML="Good"}
+        else if (numero < 11) {document.getElementById("palsu").innerHTML="alright"}
+        else if (numero < 16) {document.getElementById("palsu").innerHTML="Could be better"}
+        else if (numero < 21) {document.getElementById("palsu").innerHTML="bad"}
+        else {document.getElementById("palsu").innerHTML="very bad"}
+    }
+
+}
+
+
+
+/*const nappi = document.getElementById("laheta");
 
 const seura = document.getElementById("seuraava")
 
@@ -8,6 +60,8 @@ nappi.addEventListener("click",funkkari)
 seura.addEventListener("click",tekstivaihto)
 
 kysy = document.getElementById("kysymys")
+
+
 
 let number = 0
 
@@ -82,7 +136,7 @@ function funkkari() {
     else {alert("vastaa toisiin kysymyksiin")}
 }
 
-
+*/
 const nappula = document.getElementById("sendButton");
 
 
