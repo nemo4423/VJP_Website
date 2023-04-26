@@ -60,6 +60,9 @@ h2 {
 }
 
 .puhelin {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width: 80%; /* make the width 80% of the viewport width */
     height: 80%; /* make the height 80% of the viewport height */
     position: relative;
@@ -69,13 +72,19 @@ h2 {
 .tekstii {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 52%;
   transform: translate(-55%, -50%);
-  width: 70%; /* make the width 80% of the container width */
-  height: 100%; /* make the height 50% of the container height */
+  padding: 10px,10px;
+  width: 200px;
+  height: 450px;
   overflow-y: scroll; /* enable vertical scrolling */
   z-index: 2; /* make sure the text is on top of the rectangle */
-  text-size-adjust: 8px;
+  font-size: 12px;
+  font-family: 'Be Vietnam';
+  font-style: thin;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.13em;
 
 
 }
@@ -99,7 +108,7 @@ h2 {
     left: 0;
     width: 110%;
     height: 105%;
-    z-index: 1;
+    z-index: 2;
 }
 
 
