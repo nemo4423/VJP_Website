@@ -18,15 +18,15 @@ n5.addEventListener("click", add)
 
 function add(element) {
     console.log(element)
-    if (element.id == "N1") {
+    if (element.target.id == "N1") {
         numero += 1
-    } else if (element.id == "N2") {
+    } else if (element.target.id== "N2") {
         numero += 2
-    } else if (element.id == "N3") {
+    } else if (element.target.id == "N3") {
         numero += 3
-    } else if  (element.id == "N4") {
+    } else if  (element.target.id == "N4") {
         numero += 4
-    } else if (element.id == "N5") {
+    } else if (element.target.id == "N5") {
         numero += 5
     }
     loopkierrokset += 1
