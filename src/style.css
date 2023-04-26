@@ -59,6 +59,28 @@ h2 {
     left: 30px;
 }
 
+.puhelin {
+    width: 80%; /* make the width 80% of the viewport width */
+    height: 80%; /* make the height 80% of the viewport height */
+    position: relative;
+    margin: auto; /* center the container horizontally */
+  }
+  
+.tekstii {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  width: 70%; /* make the width 80% of the container width */
+  height: 100%; /* make the height 50% of the container height */
+  overflow-y: scroll; /* enable vertical scrolling */
+  z-index: 2; /* make sure the text is on top of the rectangle */
+  text-size-adjust: 8px;
+
+
+}
+
+
 .rectangle {
     display: flex;
     justify-content: center;
@@ -68,7 +90,6 @@ h2 {
     background-color: #586675;
     opacity: 65%;
     border-radius: 25px;
-    position: relative;
   }
   
 .overlay-image {
@@ -80,7 +101,7 @@ h2 {
     height: 105%;
     z-index: 1;
 }
-  
+
 
 
 /* #metroImg {
