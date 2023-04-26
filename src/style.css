@@ -79,7 +79,7 @@ h2 {
   width: 200px;
   height: 450px;
   overflow-y: scroll; /* enable vertical scrolling */
-  z-index: 2; /* make sure the text is on top of the rectangle */
+  z-index: 3; /* make sure the text is on top of the rectangle */
   font-size: 12px;
   font-weight: 100;
   line-height: 20px;
@@ -110,7 +110,11 @@ h2 {
     z-index: 2;
 }
 
-
+.tekstarit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* #metroImg {
     width: 100%;
@@ -131,6 +135,9 @@ h2 {
 @media (min-width: 550px) {
     body {
         background-color: green;
+    }
+    .tekstarit {
+        width: 500px;
     }
 }
 
