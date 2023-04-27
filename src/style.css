@@ -60,6 +60,7 @@ h2 {
     top: 140px;
     left: 30px;
 }
+
 .puhelin {
     display:flex;
     justify-content: center;
@@ -79,7 +80,6 @@ h2 {
   width: 200px;
   height: 450px;
   overflow-y: scroll; /* enable vertical scrolling */
-  z-index: -1; /* make sure the text is on top of the rectangle */
   font-size: 12px;
   font-weight: 100;
   line-height: 20px;
@@ -153,7 +153,6 @@ h3 {
     }
     .tekstarit {
         width: 60vw;
-        align-content: space-around;
     }
     #tekstaritpysyysamankokosina {
         width: 500px;
@@ -163,6 +162,14 @@ h3 {
     }
     h3 {
         width: 500px
+    }
+}
+@media (min-width: 850px) {
+    .tekstarit img:first-child {
+        align-self: flex-start;
+    }
+    .tekstarit img:last-child {
+      align-self: flex-end;
     }
 }
 
