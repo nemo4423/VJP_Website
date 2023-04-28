@@ -67,4 +67,4 @@ function myFunktio() {
     nappula.remove()
 }
 
-n.addEventListener("click",function() {console.log("clikc")})
+n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
