@@ -82,21 +82,20 @@ function funkkari() {
     else {alert("vastaa toisiin kysymyksiin")}
 }
 
-
+//nappi, jolla lähetetään viesti
 const nappula = document.getElementById("sendButton");
 
-
-
 nappula.addEventListener("click", myFunktio)
-
-
-const n = document.getElementsByClassName("nappis")
+//const n = document.getElementsByClassName("nappis")
 
 function myFunktio() {
-    const nimitiedot = document.getElementById("name").value
+    const nimitiedot = document.getElementById("nimi").value
     const viestitiedot = document.getElementById("viesti").value
-    const kommentti = document.getElementById("tekstituleetaha")
-    kommentti.innerHTML = nimitiedot+': '+ viestitiedot 
+    const kommentti = document.getElementById("omaKommentti")
+    kommentti.innerHTML = "<p>" + "<b>" + nimitiedot + "</b>" + "<br>" + viestitiedot + "</p>"
+    kommentti.classList.add("aikasempiKokemus")
+    nimi.value = ""
+    viesti.value=""
     nappula.remove()
 }
 

@@ -98,3 +98,122 @@ h2 {
     color: white;
   }
 
+.kommentit{
+    position: relative;  
+}
+
+#kommentitImg{
+    height: auto;
+    width: 100%;
+}
+
+.formsKommenteille{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 50%;
+    border-radius: 50px;
+    background-color: rgba(169,169,169, 0.3);
+    text-align: center;
+    padding: 0rem;
+}
+
+#kokemuksiaFontti{
+    font-size: 1.4rem;
+    color: black;
+}
+
+#ajatuksiaFontti{
+    font-size: 1.25rem;
+    color: black;
+    position: relative;
+    top: -1.5rem;
+}
+
+#kommenttiForms{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(169,169,169, 0.5);
+    width: auto;
+    height: auto;
+    max-width: 370px;
+    max-height: 200px;
+    min-height: 110px;
+    position: relative;
+    top: -1.5rem;
+    padding: 0.2rem;
+}
+
+.labelFontti{
+    font-size: 1.2rem;
+    text-align: left;
+    position: relative;
+}
+
+.forms > input{
+    width: 50%;
+    height: 1rem;
+    padding: 1%;
+    border: none; 
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: -1rem;
+    position: relative;
+}
+
+#sendButton{
+    border-radius: 30px;
+    background-color: rgba(169,169,169, 0.8);
+    color: white;
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 4px 4px #868686;
+    font-weight: 520;
+    margin-bottom: 1rem;
+    position: relative;
+    top: -0.4rem;
+}
+
+#sendButton:hover{
+    background-color: grey;
+}
+
+.aikasempiKokemus{
+    text-align: left;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    background-color: rgba(169,169,169, 0.5);
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    margin: 0.5rem; 
+    max-width: 500px;
+    
+}
+
+#aikasemmatKokemukset{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: -1.5rem;
+}
+
+
