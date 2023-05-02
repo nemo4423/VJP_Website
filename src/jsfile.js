@@ -65,7 +65,6 @@ function myFunktio() {
     kommentti.classList.add("aikasempiKokemus")
     nimi.value = ""
     viesti.value=""
-    nappula.remove()
 }
 
 n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
