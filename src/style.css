@@ -240,6 +240,7 @@ h4 {
         width: 60vw
     }
 }
+
 @media (min-width: 850px) {
     .tekstarit img:first-child {
         align-self: flex-start;
@@ -308,11 +309,6 @@ h4 {
     background-position: center center;
 }
 
-#kommentitImg{
-    height: auto;
-    width: 100%;
-}
-
 .formsKommenteille{
     display: flex;
     align-items: center;
@@ -332,14 +328,17 @@ h4 {
 
 #kokemuksiaFontti{
     font-size: 1.4rem;
-    color: black;
+    color: white;
+    letter-spacing: 0.3rem;
+    font-weight: 500;
 }
 
 #ajatuksiaFontti{
     font-size: 1.25rem;
-    color: black;
+    color: white;
     position: relative;
     top: -1.5rem;
+    letter-spacing: 0.1rem;
 }
 
 #kommenttiForms{
@@ -421,5 +420,16 @@ h4 {
     position: relative;
     top: -1.5rem;
 }
+
+@media (max-width: 680px) {
+    .kommentit{
+        background-position: 20% 50%;
+    }
+    .formsKommenteille{
+        width: 80%;
+        left: 50%;
+    }
+}
+
 
 
