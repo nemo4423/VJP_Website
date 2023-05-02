@@ -250,26 +250,7 @@ h4 {
     }
 }
 
-.box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: grey;
-    height: 60%;
-    width: 75%;
-    border-radius: 10px;
-    opacity: 0.5;
-  }
 
-#teksti {opacity: 2.0;}
-
-.iso {
-    width: 100vw;
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
 .kysely {
     width: 80%;
