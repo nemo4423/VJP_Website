@@ -272,7 +272,11 @@ h4 {
 }
 
 .kysely {
-    width: 100vw;
+    width: 80%;
+    padding: 5vw;
+    margin: 5vw;
+    border-radius: 25px;
+    background-color:#586675;
 }
 
 #vastausvaihtoehdot {
@@ -289,15 +293,25 @@ h4 {
     align-items: center;
     flex-direction: row;
     justify-content: center;}  
+
+
         
 .ympyra {
     height: 50px;
     width: 50px;
     border-radius: 30px;
     margin: 10px;
+    aspect-ratio: 1/1;
 }
 .ympyra:hover {
     background-color: cadetblue;
+}
+
+@media (max-width: 440px) {
+    .ympyra {
+        width: 37px;
+        height: 37px;
+    }
 }
 
 .kommentit{
