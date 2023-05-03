@@ -437,3 +437,12 @@ h4 {
 @media (min-width: 680px) {
     .kysely {width: 60%;}
 }
+
+
+.footer-picture {
+    position: relative;  
+    width: 100vw;
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+}
