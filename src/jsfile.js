@@ -43,8 +43,8 @@ function add(element) {
         else if (numero < 6 ) {document.getElementById("palsu").innerHTML="Puhelimen käyttösi ei vaikuta olevan haitallista sosiaalisissa tilanteissa. Hienoa! Kehoita ystäviäsi toimimaan samoin."}
         else if (numero < 11) {document.getElementById("palsu").innerHTML="Olet oikeilla raiteilla, mutta voisit vielä kiinnittää käytökseesi hieman enemmän huomiota. Ihmissuhteidesi laatu paranee, kun tietoisesti keskityt sosiaalisiin tilanteisiin paremmin."}
         else if (numero < 16) {document.getElementById("palsu").innerHTML="Toiminnassasi on kehityksen varaa. Oletko huomannut, että sinulta menee joskus muiden asioista osa ohi, kun huomiosi kiinnittyy hetkeksi puhelimeen? Ensimmäinen askel muutokseen on ongelman huomaaminen. Lue vinkkimme tilanteen parantamiseen ja palaa kahden viikon päästä tekemään testi uudelleen!"}
-        else if (numero < 21) {document.getElementById("palsu").innerHTML="Et taida kiinnittää hirveästi huomiota omaan käytökseesi. Puhelimen käytölläsi on todennäköisesti negatiivinen vaikutus ihmissuhteisiisi, vaikket olisi sitä itse huomannut. Lue sivuiltamme vinkkejä siitä, miten voisit muuttaa käyttäytymistäsi parempaan suuntaan. Muutos voi vaikuttaa niin elämääsi kuin ihmissuhteisiisi positiivisella tavalla. Palaa kahden viikon päästä tekemään testi uudelleen testataksesi oletko edistynyt."}
-        else {document.getElementById("palsu").innerHTML="very bad"}
+        else {document.getElementById("palsu").innerHTML="Et taida kiinnittää hirveästi huomiota omaan käytökseesi. Puhelimen käytölläsi on todennäköisesti negatiivinen vaikutus ihmissuhteisiisi, vaikket olisi sitä itse huomannut. Lue sivuiltamme vinkkejä siitä, miten voisit muuttaa käyttäytymistäsi parempaan suuntaan. Muutos voi vaikuttaa niin elämääsi kuin ihmissuhteisiisi positiivisella tavalla. Palaa kahden viikon päästä tekemään testi uudelleen testataksesi oletko edistynyt."}
+        
     }
 
 }
