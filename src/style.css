@@ -271,16 +271,24 @@ h4 {
     display:flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 15px;} 
 
+
+
+.vaihtoehto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+}
 
 
 .painikkeet {
     display:flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;}  
+    justify-content: space-between;}  
 
 
         
