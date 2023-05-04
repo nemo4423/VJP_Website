@@ -31,16 +31,16 @@ function add(element) {
     }
     loopkierrokset += 1
     if (loopkierrokset == 1) {
-        document.getElementById("kysymys").innerHTML = "Kuinka usein huomaat muiden käyttävän puhelinta seurassasi?"
+        document.getElementById("kysymys").innerHTML = "2. Kuinka usein huomaat muiden käyttävän puhelinta seurassasi?"
     } else if (loopkierrokset == 2) {
-        document.getElementById("kysymys").innerHTML = "Kuinka usein pidät ryhmätilanteissa puhelimesi pöydällä ruutu ylöspäin?"
+        document.getElementById("kysymys").innerHTML = "3. Kuinka usein pidät ryhmätilanteissa puhelimesi pöydällä ruutu ylöspäin?"
     } else if (loopkierrokset == 3) {
-        document.getElementById("kysymys").innerHTML = "Kuinka usein kiinnität huomiota omaan puhelimen käyttöösi muiden seurassa?"
+        document.getElementById("kysymys").innerHTML = "4. Kuinka usein kiinnität huomiota omaan puhelimen käyttöösi muiden seurassa?"
     } else if (loopkierrokset == 4) {
-        document.getElementById("kysymys").innerHTML = "Kuinka usein pidät ilmoituksia päällä (myös työskennellessä)?"
+        document.getElementById("kysymys").innerHTML = "5. Kuinka usein pidät ilmoituksia päällä (myös työskennellessä)?"
     } if (loopkierrokset == 5) {
         if (numero === 0) {document.getElementById("palsu").innerHTML="Yrititkö edes?"}
-        else if (numero < 6 ) {document.getElementById("palsu").innerHTML="Puhelimen käyttösi ei vaikuta olevan haitallista sosiaalississa tilanteissa. Hienoa! Kehoita ystäviäsi toimimaan samoin."}
+        else if (numero < 6 ) {document.getElementById("palsu").innerHTML="Puhelimen käyttösi ei vaikuta olevan haitallista sosiaalisissa tilanteissa. Hienoa! Kehoita ystäviäsi toimimaan samoin."}
         else if (numero < 11) {document.getElementById("palsu").innerHTML="Olet oikeilla raiteilla, mutta voisit vielä kiinnittää käytökseesi hieman enemmän huomiota. Ihmissuhteidesi laatu paranee, kun tietoisesti keskityt sosiaalisiin tilanteisiin paremmin."}
         else if (numero < 16) {document.getElementById("palsu").innerHTML="Toiminnassasi on kehityksen varaa. Oletko huomannut, että sinulta menee joskus muiden asioista osa ohi, kun huomiosi kiinnittyy hetkeksi puhelimeen? Ensimmäinen askel muutokseen on ongelman huomaaminen. Lue vinkkimme tilanteen parantamiseen ja palaa kahden viikon päästä tekemään testi uudelleen!"}
         else if (numero < 21) {document.getElementById("palsu").innerHTML="Et taida kiinnittää hirveästi huomiota omaan käytökseesi. Puhelimen käytölläsi on todennäköisesti negatiivinen vaikutus ihmissuhteisiisi, vaikket olisi sitä itse huomannut. Lue sivuiltamme vinkkejä siitä, miten voisit muuttaa käyttäytymistäsi parempaan suuntaan. Muutos voi vaikuttaa niin elämääsi kuin ihmissuhteisiisi positiivisella tavalla. Palaa kahden viikon päästä tekemään testi uudelleen testataksesi oletko edistynyt."}
