@@ -146,7 +146,6 @@ h2 {
 
 
 .tekstarit {
-    height: 50vvh;
     display: flex;
     flex-direction: column;
     align-items: center;
