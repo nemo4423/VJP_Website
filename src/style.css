@@ -220,6 +220,30 @@ h4 {
     height:450px;
     padding: 10px;
 }
+figcaption {
+    font-size: 14px;
+    width: 200px;
+    padding-left: 10px;
+}
+#lataa{
+    border-radius: 30px;
+    background-color: rgba(75, 75, 75, 0.8);
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    font-size: 0.8rem;
+    border: none;
+    box-shadow: 1px 2px #1f1f1f;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+#lataa:hover{
+    background-color: rgb(45, 59, 74);
+    ;
+}
+
+
 
 .Parent {
     display: flex;
@@ -465,6 +489,11 @@ h4 {
     .formsKommenteille{
         width: 80%;
         left: 50%;
+    }
+}
+@media (max-width: 500px) {
+    .jutut {
+        display: none;
     }
 }
 
