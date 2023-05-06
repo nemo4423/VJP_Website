@@ -183,16 +183,22 @@ h4 {
 .materiaalit {
     background-color: aqua;
     width: 80vw;
-    height: 60vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-.videopuoli {
-    background-color: #586675;
-    width: 30vw;
-    height: 20vh;
+.video {
+    display: flex;
+    justify-content: center;
+}
+.somematskut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bingo {
+    height: 40vh;
+}
 
-}
 .Parent {
     display: flex;
     flex-direction: row;
