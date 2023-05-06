@@ -76,12 +76,13 @@ h2 {
   .fade-in:first-child {
     animation-name: fadeIn;
     animation-duration: 2.5s;
+    animation-delay: 1s;
   }
   
   .fade-in:last-child {
     animation-name: fadeIn;
     animation-duration: 2s;
-    animation-delay: 2s; /* add a delay of 2 seconds */
+    animation-delay: 2.8s; /* add a delay of 2 seconds */
   }
   
   @keyframes fadeIn {
@@ -326,6 +327,14 @@ h4 {
         width: 37px;
         height: 37px;
     }
+}
+#kysymys {
+    font-weight: 200;
+    font-size: 18px;
+}
+#palsu {
+    font-weight: 100;
+    font-size: 14px;
 }
 
 .kommentit{
