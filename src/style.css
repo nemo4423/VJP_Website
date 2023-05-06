@@ -76,12 +76,13 @@ h2 {
   .fade-in:first-child {
     animation-name: fadeIn;
     animation-duration: 2.5s;
+    animation-delay: 1s; 
   }
   
   .fade-in:last-child {
     animation-name: fadeIn;
     animation-duration: 2s;
-    animation-delay: 2s; /* add a delay of 2 seconds */
+    animation-delay: 2.8s; 
   }
   
   @keyframes fadeIn {
@@ -181,34 +182,25 @@ h4 {
 .materiaalit {
     background-color: aqua;
     width: 80vw;
-    height: 60vh;
-    display: flex;
-    flex-direction: row;
+    height: 90vh;
+
 }
-.videopuoli {
+.video {
     background-color: #586675;
-    width: 30vw;
-    height: 20vh;
+    width: 80vw;
+    height: 40vh;
+}
+.some {
+    width: 80vw; /* set container width */
+    height: 60vh; /* set container height to auto */
+    max-height: 300px; /* set maximum height */
+    display: flex; /* use flexbox layout */
+    justify-content: center; /* center image horizontally */
+    align-items: center; /* center image vertically */
+  }
+  
 
-}
-.Parent {
-    display: flex;
-    flex-direction: row;
-}
-
-.child1 {
-    width: 50%;
-    height: 100vh;
-    background-color: green;
-    text-align: right;
-    color: white;
-}
-
-.child2 {
-    width: 50%;
-    color: green;
-    height: 100vh;
-}
+  
 
 #skateImg {
     width: 100%;
