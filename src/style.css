@@ -213,15 +213,16 @@ h4 {
     
 }
 #bingo {
-    height: 450px;
+    height: 350px;
     padding: 10px;
 }
 #pysahdy {
-    height:450px;
+    height:350px;
     padding: 10px;
 }
 figcaption {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 200;
     width: 200px;
     padding-left: 10px;
 }
