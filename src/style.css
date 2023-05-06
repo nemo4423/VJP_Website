@@ -76,13 +76,12 @@ h2 {
   .fade-in:first-child {
     animation-name: fadeIn;
     animation-duration: 2.5s;
-    animation-delay: 1s; 
   }
   
   .fade-in:last-child {
     animation-name: fadeIn;
     animation-duration: 2s;
-    animation-delay: 2.8s; 
+    animation-delay: 2s; /* add a delay of 2 seconds */
   }
   
   @keyframes fadeIn {
@@ -149,7 +148,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
 }
 
 
@@ -183,25 +181,34 @@ h4 {
 .materiaalit {
     background-color: aqua;
     width: 80vw;
-    height: 90vh;
-
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
 }
-.video {
+.videopuoli {
     background-color: #586675;
-    width: 80vw;
-    height: 40vh;
-}
-.some {
-    width: 80vw; /* set container width */
-    height: 60vh; /* set container height to auto */
-    max-height: 300px; /* set maximum height */
-    display: flex; /* use flexbox layout */
-    justify-content: center; /* center image horizontally */
-    align-items: center; /* center image vertically */
-  }
-  
+    width: 30vw;
+    height: 20vh;
 
-  
+}
+.Parent {
+    display: flex;
+    flex-direction: row;
+}
+
+.child1 {
+    width: 50%;
+    height: 100vh;
+    background-color: green;
+    text-align: right;
+    color: white;
+}
+
+.child2 {
+    width: 50%;
+    color: green;
+    height: 100vh;
+}
 
 #skateImg {
     width: 100%;
@@ -213,6 +220,9 @@ h4 {
 @media (min-width: 550px) {
     body {
         background-color: green;
+    }
+    .tekstarit {
+        width: 60vw;
     }
     #tekstaritpysyysamankokosina {
         width: 500px;
@@ -229,61 +239,65 @@ h4 {
     h3 {
         width: 60vw
     }
+
+    
 }
+
 @media (min-width: 850px) {
     .tekstarit img:first-child {
-        align-self: flex-end;
+        align-self: flex-start;
     }
     .tekstarit img:last-child {
-      align-self: flex-start;
+      align-self: flex-end;
     }
+    
 }
 
-.box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: grey;
-    height: 60%;
-    width: 75%;
-    border-radius: 10px;
-    opacity: 0.5;
-  }
 
-#teksti {opacity: 2.0;}
-
-.iso {
-    width: 100vw;
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
 .kysely {
-    width: 100vw;
+    width: 80%;
+    padding: 5vw;
+    margin: 5vw;
+    border-radius: 25px;
+    background-color:#2B2B2B;
+    font-size: 1.4rem;
 }
 
+
 #vastausvaihtoehdot {
+    width: 100%;
+    height: 100%;
     display:flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 15px;} 
 
+
+
+.vaihtoehto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95px;
+}
 
 
 .painikkeet {
     display:flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;}  
+    justify-content: space-between;}  
+
+
         
 .ympyra {
     height: 50px;
     width: 50px;
     border-radius: 30px;
     margin: 10px;
+    aspect-ratio: 1/1;
 }
 .ympyra:hover {
     background-color: cadetblue;
@@ -389,7 +403,6 @@ h4 {
 #sendButton:hover{
     background-color: grey;
 }
-
 
 .aikasempiKokemus{
     text-align: left;
