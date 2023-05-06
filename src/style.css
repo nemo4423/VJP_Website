@@ -151,6 +151,9 @@ h2 {
     align-items: center;
     justify-content: space-between;
 }
+#tekstaritpysyysamankokosina {
+    padding: 0px 0px 15px;
+}
 
 
 
@@ -181,7 +184,7 @@ h4 {
     font-weight: 20;
 }
 .materiaalit {
-    background-color: aqua;
+
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -223,9 +226,6 @@ h4 {
 
 
 @media (min-width: 550px) {
-    body {
-        background-color: green;
-    }
     .tekstarit {
         width: 60vw;
     }
