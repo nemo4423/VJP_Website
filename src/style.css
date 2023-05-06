@@ -361,7 +361,7 @@ h4 {
     align-items: center;
     border-radius: 50px;
     background-color: rgba(169,169,169, 0.5);
-    width: auto;
+    width: 80%;
     height: auto;
     max-width: 370px;
     max-height: 200px;
