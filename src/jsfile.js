@@ -68,3 +68,19 @@ function myFunktio() {
 }
 
 n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
+
+
+
+function playAudio() {
+    var audio = document.getElementById("my-audio");
+    audio.play();
+}
+function pauseAudio() {
+    var audio = document.getElementById("my-audio");
+    audio.pause();
+}
+function restartAudio() {
+    var audio = document.getElementById("my-audio");
+    audio.currentTime = 0;
+}
+
