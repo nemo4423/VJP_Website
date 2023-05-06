@@ -156,7 +156,7 @@ h2 {
 }
 
 .oikeanpuolenpuhekuplateksti {
-    width: 60vw;
+    width: 75vw;
     font-size: 12px;
     position: absolute;
     left: 50%;
@@ -271,7 +271,6 @@ h4 {
     }
     
 }
-
 
 
 .kysely {
