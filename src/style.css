@@ -165,7 +165,6 @@ h2 {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -5%);
-    
 }
 
 
@@ -304,6 +303,7 @@ figcaption {
 
 .kysely {
     width: 80%;
+    max-width: 550px;
     padding: 5vw;
     margin: 5vw;
     border-radius: 25px;
