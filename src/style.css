@@ -355,7 +355,19 @@ figcaption {
         width: 37px;
         height: 37px;
     }
+    
 }
+
+
+@media (max-width: 440px) {
+    .ympyra {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+
 #kysymys {
     font-weight: 200;
     font-size: 18px;
