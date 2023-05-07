@@ -157,7 +157,10 @@ h2 {
 }
 
 .oikeanpuolenpuhekuplateksti {
+    display: flex;
+    align-items: flex-end;
     width: 75vw;
+    max-width: 450px;
     font-size: 12px;
     position: absolute;
     left: 50%;
