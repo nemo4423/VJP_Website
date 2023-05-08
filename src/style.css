@@ -157,15 +157,21 @@ h2 {
 }
 
 .oikeanpuolenpuhekuplateksti {
-    display: flex;
-    align-items: flex-end;
+    position: absolute;
+    transform: translate(-0%, -10%);
     width: 75vw;
     max-width: 450px;
     font-size: 12px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -5%);
+    
 }
+@media (min-width: 370px) {
+    .oikeanpuolenpuhekuplateksti {
+        width: 280px;
+        transform: translate(-0%, -7%);
+    }
+}
+
+
 
 
 /* #metroImg {
@@ -283,6 +289,8 @@ figcaption {
     .oikeanpuolenpuhekuplateksti {
         font-size: 18px;
         width: 70vw;
+        left: 47%;
+        transform: translate(-46%, -5%);
     }
     #kampanjavideo {
         width: 50vw;
@@ -290,12 +298,18 @@ figcaption {
     
 }
 
+
 @media (min-width: 850px) {
     .tekstarit img:first-child {
         align-self: flex-end;
     }
     .tekstarit img:last-child {
       align-self: flex-start;
+    }
+    .oikeanpuolenpuhekuplateksti {
+        position: relative;
+        left: 47%;
+        transform: translate(-50%, -150%);
     }
     
 }
