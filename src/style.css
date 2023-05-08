@@ -309,7 +309,7 @@ figcaption {
     .oikeanpuolenpuhekuplateksti {
         position: relative;
         left: 47%;
-        transform: translate(-50%, -150%);
+        transform: translate(-50%, -140%);
     }
     
 }
