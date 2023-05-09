@@ -156,6 +156,8 @@ h2 {
     padding: 0px 0px 15px;
 }
 
+
+
 .oikeanpuolenpuhekuplateksti {
     position: absolute;
     transform: translate(-0%, -10%);
@@ -301,10 +303,10 @@ figcaption {
 
 @media (min-width: 850px) {
     .tekstarit img:first-child {
-        align-self: flex-end;
+        align-self: flex-start;
     }
     .tekstarit img:last-child {
-      align-self: flex-start;
+      align-self: flex-end;
     }
     .oikeanpuolenpuhekuplateksti {
         position: relative;
