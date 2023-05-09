@@ -160,17 +160,23 @@ h2 {
 
 .oikeanpuolenpuhekuplateksti {
     position: absolute;
-    transform: translate(-0%, -10%);
+    transform: translate(-0%, 85%);
     width: 75vw;
     max-width: 450px;
     font-size: 12px;
     
 }
+
+
 @media (min-width: 370px) {
     .oikeanpuolenpuhekuplateksti {
         width: 280px;
-        transform: translate(-0%, -7%);
+        transform: translate(-0%, 80%);
     }
+    .ekaoikeapuhekupla {
+        transform: translate(-0%,20%);
+    }
+    
 }
 
 
@@ -292,7 +298,7 @@ figcaption {
         font-size: 18px;
         width: 70vw;
         left: 47%;
-        transform: translate(-46%, -5%);
+        transform: translate(-46%,85%);
     }
     #kampanjavideo {
         width: 50vw;
@@ -309,13 +315,10 @@ figcaption {
       align-self: flex-end;
     }
     .oikeanpuolenpuhekuplateksti {
-        position: relative;
         left: 47%;
-        transform: translate(-50%, -140%);
+        transform: translate(-43%, 85%);
     }
-    #toinenoikeapuhekupla {
-        transform: translate(-50%, -105%)
-    }
+    
 }
 
 
