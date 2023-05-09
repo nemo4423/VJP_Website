@@ -311,7 +311,9 @@ figcaption {
         left: 47%;
         transform: translate(-50%, -140%);
     }
-    
+    #toinenoikeapuhekupla {
+        transform: translate(-50%, -105%)
+    }
 }
 
 
