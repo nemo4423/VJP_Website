@@ -160,21 +160,23 @@ h2 {
 
 .oikeanpuolenpuhekuplateksti {
     position: absolute;
-    transform: translate(-0%, 85%);
+    transform: translate(-0%, 70%);
     width: 75vw;
     max-width: 450px;
-    font-size: 12px;
-    
+    font-size: 12px; 
 }
 
+#ekaoikeapuhekupla {
+    transform: translate(-0%, 100%);
+}
 
 @media (min-width: 370px) {
     .oikeanpuolenpuhekuplateksti {
         width: 280px;
         transform: translate(-0%, 80%);
     }
-    .ekaoikeapuhekupla {
-        transform: translate(-0%,20%);
+    #ekaoikeapuhekupla {
+        transform: translate(-0%,120%);
     }
     
 }
@@ -295,15 +297,25 @@ figcaption {
         width: 60vw
     }
     .oikeanpuolenpuhekuplateksti {
+        left: 47%;
         font-size: 18px;
         width: 70vw;
-        left: 47%;
-        transform: translate(-46%,85%);
+        transform: translate(-43%,85%);
+    }
+    #ekaoikeapuhekupla {
+        transform: translate(-40%,118%);
+        left: 45%;
     }
     #kampanjavideo {
         width: 50vw;
     }
     
+}
+
+@media (min-width: 605px) {
+    #ekaoikeapuhekupla {
+        transform: translate(-40%,150%);
+    }
 }
 
 
@@ -315,10 +327,12 @@ figcaption {
       align-self: flex-end;
     }
     .oikeanpuolenpuhekuplateksti {
-        left: 47%;
+        left: 48%;
         transform: translate(-43%, 85%);
     }
-    
+    #ekaoikeapuhekupla {
+        left: 47%;  
+    }
 }
 
 
