@@ -166,6 +166,14 @@ h2 {
     font-size: 12px; 
 }
 
+.vasemmanpuolenpuhekuplateksti {
+    position: absolute;
+    transform: translate(-0%,-5%);
+    width: 75vw;
+    max-width: 450px;
+    font-size: 12px; 
+}
+
 #ekaoikeapuhekupla {
     transform: translate(-0%, 100%);
 }
@@ -302,10 +310,18 @@ figcaption {
         width: 70vw;
         transform: translate(-43%,85%);
     }
+
+
     #ekaoikeapuhekupla {
         transform: translate(-40%,118%);
         left: 45%;
     }
+
+    .vasemmanpuolenpuhekuplateksti {
+        font-size: 16px;
+        transform: translate(-0%, 0%);;
+    }
+
     #kampanjavideo {
         width: 50vw;
     }
@@ -332,6 +348,9 @@ figcaption {
     }
     #ekaoikeapuhekupla {
         left: 47%;  
+    }
+    .vasemmanpuolenpuhekuplateksti {
+        left: 23%;
     }
 }
 
