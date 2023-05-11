@@ -13,8 +13,6 @@ body {display: flex;
     
 }
 
-/* test */
-
 html{
     scroll-behavior: smooth;;
     
@@ -184,12 +182,48 @@ h2 {
     font-size: 12px; 
 }
 
+.oikeaKupla {
+    position: absolute;
+    transform: translate(-0%, 70%);
+    width: 75vw;
+    max-width: 450px;
+    font-size: 12px; 
+    background-image: url("images/Oikeakupla.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
 .vasemmanpuolenpuhekuplateksti {
     position: absolute;
     transform: translate(-0%,-5%);
     width: 75vw;
     max-width: 450px;
     font-size: 12px; 
+}
+
+.vasenKupla {
+    position: absolute;
+    transform: translate(-0%,-5%);
+    width: 75vw;
+    max-width: 450px;
+    font-size: 12px; 
+    padding-left: 20px;
+    
+    background-image: url("images/Vasenkupla.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.vasenTeksti {
+    padding-left: 28px;
+    padding-right: 10px;
+}
+
+.oikeaTeksti {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #ekaoikeapuhekupla {
@@ -201,6 +235,12 @@ h2 {
         width: 280px;
         transform: translate(-0%, 80%);
     }
+
+    .oikeaKupla {
+        width: 280px;
+        transform: translate(-0%, 80%);
+    }
+
     #ekaoikeapuhekupla {
         transform: translate(-0%,120%);
     }
@@ -329,6 +369,13 @@ figcaption {
         transform: translate(-43%,85%);
     }
 
+    .oikeaKupla {
+        left: 47%;
+        font-size: 18px;
+        width: 70vw;
+        transform: translate(-43%,85%);
+    }
+
 
     #ekaoikeapuhekupla {
         transform: translate(-40%,118%);
@@ -336,6 +383,11 @@ figcaption {
     }
 
     .vasemmanpuolenpuhekuplateksti {
+        font-size: 16px;
+        transform: translate(-0%, 0%);;
+    }
+
+    .vasenKupla {
         font-size: 16px;
         transform: translate(-0%, 0%);;
     }
@@ -364,10 +416,18 @@ figcaption {
         left: 48%;
         transform: translate(-43%, 85%);
     }
+    .oikeaKupla {
+        left: 48%;
+        transform: translate(-43%, 85%);
+    }
     #ekaoikeapuhekupla {
         left: 47%;  
     }
     .vasemmanpuolenpuhekuplateksti {
+        left: 23%;
+    }
+
+    .vasenKupla {
         left: 23%;
     }
 }
