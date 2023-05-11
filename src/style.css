@@ -8,10 +8,23 @@ body {display: flex;
     max-width: 1440px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 36px;
-    color: white; 
+    color: white;
+    
+    
 }
 
 /* test */
+
+html{
+    scroll-behavior: smooth;;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+
+}
 
 nav {
     position:fixed;
@@ -123,6 +136,10 @@ h2 {
     display: none;
 }
 
+#kyselyScroll {
+    scroll-margin-top: 50px;
+}
+
 .rectangle {
     display: flex;
     justify-content: center;
@@ -154,6 +171,7 @@ h2 {
 }
 #tekstaritpysyysamankokosina {
     padding: 0px 0px 15px;
+    scroll-margin-top: 50px;
 }
 
 
