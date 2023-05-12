@@ -166,6 +166,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    max-width: 800px;
 }
 #tekstaritpysyysamankokosina {
     padding: 0px 0px 15px;
@@ -183,8 +184,8 @@ h2 {
 }
 
 .oikeaKupla {
-    position: absolute;
-    transform: translate(-0%, 70%);
+    position: relative;
+    transform: translate(-0%, 0%);
     width: 75vw;
     max-width: 450px;
     font-size: 12px; 
@@ -203,7 +204,7 @@ h2 {
 }
 
 .vasenKupla {
-    position: absolute;
+    position: relative;
     transform: translate(-0%,-5%);
     width: 75vw;
     max-width: 450px;
@@ -237,8 +238,8 @@ h2 {
     }
 
     .oikeaKupla {
-        width: 280px;
-        transform: translate(-0%, 80%);
+        width: 70vw;
+        transform: translate(-0%, 10%);
     }
 
     #ekaoikeapuhekupla {
@@ -373,7 +374,7 @@ figcaption {
         left: 47%;
         font-size: 18px;
         width: 70vw;
-        transform: translate(-43%,85%);
+        transform: translate(-43%, 10%);
     }
 
 
@@ -398,18 +399,21 @@ figcaption {
     
 }
 
+
 @media (min-width: 605px) {
     #ekaoikeapuhekupla {
         transform: translate(-40%,150%);
     }
+
+
 }
 
 
 @media (min-width: 850px) {
-    .tekstarit img:first-child {
+    .tekstarit div:first-child {
         align-self: flex-start;
     }
-    .tekstarit img:last-child {
+    .tekstarit div:last-child {
       align-self: flex-end;
     }
     .oikeanpuolenpuhekuplateksti {
@@ -418,7 +422,7 @@ figcaption {
     }
     .oikeaKupla {
         left: 48%;
-        transform: translate(-43%, 85%);
+        transform: translate(-53%, 15%);
     }
     #ekaoikeapuhekupla {
         left: 47%;  
@@ -427,9 +431,6 @@ figcaption {
         left: 23%;
     }
 
-    .vasenKupla {
-        left: 23%;
-    }
 }
 
 
