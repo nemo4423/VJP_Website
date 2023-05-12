@@ -175,13 +175,13 @@ h2 {
 
 
 
-.oikeanpuolenpuhekuplateksti {
+/* .oikeanpuolenpuhekuplateksti {
     position: absolute;
     transform: translate(-0%, 70%);
     width: 75vw;
     max-width: 450px;
     font-size: 12px; 
-}
+} */
 
 .oikeaKupla {
     position: relative;
@@ -195,13 +195,13 @@ h2 {
     background-position: center;
 }
 
-.vasemmanpuolenpuhekuplateksti {
+/* .vasemmanpuolenpuhekuplateksti {
     position: absolute;
     transform: translate(-0%,-5%);
     width: 75vw;
     max-width: 450px;
     font-size: 12px; 
-}
+} */
 
 .vasenKupla {
     position: relative;
@@ -218,46 +218,39 @@ h2 {
 }
 
 .vasenTeksti {
-    padding-left: 28px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 14px;
 }
 
 .oikeaTeksti {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 22px;
+    padding-right: 14px;
 }
 
-#ekaoikeapuhekupla {
+/* #ekaoikeapuhekupla {
     transform: translate(-0%, 100%);
-}
+} */
 
 @media (min-width: 370px) {
-    .oikeanpuolenpuhekuplateksti {
+/*     .oikeanpuolenpuhekuplateksti {
         width: 280px;
         transform: translate(-0%, 80%);
-    }
+    } */
 
     .oikeaKupla {
         width: 70vw;
         transform: translate(-0%, 10%);
     }
 
-    #ekaoikeapuhekupla {
+/*     #ekaoikeapuhekupla {
         transform: translate(-0%,120%);
-    }
+    } */
     
 }
 
 
 
 
-/* #metroImg {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-    width: 100%;
-    min-height: 333px;
-} */
 h3 {
     width: 80vw;
     font-weight: 500;
@@ -363,30 +356,30 @@ figcaption {
     h3 {
         width: 60vw
     }
-    .oikeanpuolenpuhekuplateksti {
+/*     .oikeanpuolenpuhekuplateksti {
         left: 47%;
         font-size: 18px;
         width: 70vw;
         transform: translate(-43%,85%);
-    }
+    } */
 
     .oikeaKupla {
         left: 47%;
-        font-size: 18px;
+        font-size: 16px;
         width: 70vw;
         transform: translate(-43%, 10%);
     }
 
 
-    #ekaoikeapuhekupla {
+/*     #ekaoikeapuhekupla {
         transform: translate(-40%,118%);
         left: 45%;
-    }
+    } */
 
-    .vasemmanpuolenpuhekuplateksti {
+/*     .vasemmanpuolenpuhekuplateksti {
         font-size: 16px;
         transform: translate(-0%, 0%);;
-    }
+    } */
 
     .vasenKupla {
         font-size: 16px;
@@ -400,13 +393,13 @@ figcaption {
 }
 
 
-@media (min-width: 605px) {
+/* @media (min-width: 605px) {
     #ekaoikeapuhekupla {
         transform: translate(-40%,150%);
     }
 
 
-}
+} */
 
 
 @media (min-width: 850px) {
@@ -416,20 +409,20 @@ figcaption {
     .tekstarit div:last-child {
       align-self: flex-end;
     }
-    .oikeanpuolenpuhekuplateksti {
+/*     .oikeanpuolenpuhekuplateksti {
         left: 48%;
         transform: translate(-43%, 85%);
-    }
+    } */
     .oikeaKupla {
         left: 48%;
         transform: translate(-53%, 15%);
     }
-    #ekaoikeapuhekupla {
+/*     #ekaoikeapuhekupla {
         left: 47%;  
-    }
-    .vasemmanpuolenpuhekuplateksti {
+    } */
+/*     .vasemmanpuolenpuhekuplateksti {
         left: 23%;
-    }
+    } */
 
 }
 
