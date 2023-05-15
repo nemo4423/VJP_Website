@@ -195,6 +195,10 @@ h2 {
     background-position: center;
 }
 
+#vinkitIdKupla{
+    align-self: right;
+}
+
 /* .vasemmanpuolenpuhekuplateksti {
     position: absolute;
     transform: translate(-0%,-5%);
@@ -226,6 +230,14 @@ h2 {
     padding-left: 22px;
     padding-right: 14px;
 }
+
+.vinkitKupla {
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 12px; 
+}
+
+
 
 /* #ekaoikeapuhekupla {
     transform: translate(-0%, 100%);
@@ -259,6 +271,13 @@ h3 {
     letter-spacing: 0.1em;
 }
 
+.vinkitjaneuvot {
+    width: 80vw;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 .asiantuntijoilta1 {
     width: 80vw;
     font-weight: 200;
@@ -270,15 +289,25 @@ h4 {
     font-size: 32px;
     font-weight: 20;
 }
+h5 {
+    font-size: 32px;
+    font-weight: 20;
+}
 .materiaalit {
 
     width: 80vw;
     display: flex;
     flex-direction: column;
 }
+
 .video {
     display: flex;
     justify-content: center;
+}
+.vinkit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .somematskut {
     display: flex;
@@ -352,6 +381,9 @@ figcaption {
     .asiantuntijoilta1 {
         width: 60vw
     }
+    .vinkitjaneuvot {
+        width: 60vw
+    }
     h1 {
         font-size: 49.5px;
     }
@@ -389,6 +421,10 @@ figcaption {
     .vasenKupla {
         font-size: 16px;
         transform: translate(-0%, 0%);;
+    }
+
+    .vinkitKupla {
+        font-size: 14px; 
     }
 
     #kampanjavideo {
