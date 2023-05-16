@@ -166,7 +166,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 930px;
 }
 #tekstaritpysyysamankokosina {
     padding: 0px 0px 15px;
@@ -232,6 +232,7 @@ h2 {
     padding-right: 22px;
     font-size: 12px; 
 }
+
 
 
 
@@ -401,10 +402,8 @@ figcaption {
     } */
 
     .oikeaKupla {
-        left: 47%;
         font-size: 16px;
         width: 70vw;
-        transform: translate(-43%, 10%);
     }
 
 
@@ -455,8 +454,7 @@ figcaption {
         transform: translate(-43%, 85%);
     } */
     .oikeaKupla {
-        left: 48%;
-        transform: translate(-53%, 15%);
+        transform: translate(-0%, 15%);
     }
 /*     #ekaoikeapuhekupla {
         left: 47%;  
@@ -464,6 +462,9 @@ figcaption {
 /*     .vasemmanpuolenpuhekuplateksti {
         left: 23%;
     } */
+    #vinkitjaneuv {
+        transform: translate(44%, 0%);
+    }
 
 }
 
