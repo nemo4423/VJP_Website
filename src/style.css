@@ -386,6 +386,10 @@ figcaption {
     opacity: 1;
 }
 
+.gifikoko {
+    max-width: 250px;
+}
+
 #vasennappula {
     border-radius: 30px;
         background-color: rgba(75, 75, 75, 0.8);
