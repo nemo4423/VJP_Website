@@ -553,6 +553,7 @@ figcaption {
     height: 50px;
     width: 50px;
     border-radius: 30px;
+    border-style: solid;
     margin: 10px;
     aspect-ratio: 1/1;
 }
