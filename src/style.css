@@ -349,12 +349,18 @@ h5 {
     padding: 10px;
     
 }
+
+figure {
+    text-align: center; 
+}
+
 figcaption {
     font-size: 12px;
     font-weight: 200;
-    width: 200px;
+    width: 250px;
     height: 45px;
     padding-left: 10px;
+    text-align: center; 
 }
 
 #slide-1 {
@@ -381,13 +387,14 @@ figcaption {
 .gif {
     position: relative;
     display: inline-block;
+    vertical-align: bottom; 
 }
 .gif:hover .linkkinappi {
     opacity: 1;
 }
 
 .gifikoko {
-    max-width: 250px;
+    max-width: 160px;
 }
 
 #vasennappula {
@@ -841,7 +848,7 @@ figcaption {
 
 .footer-picture {
     position: relative;  
-    width: 55vw;
+    width: 40vw;
     height: auto;
     background-size: cover;
     background-position: center center;
@@ -854,6 +861,7 @@ figcaption {
 
 .lopputeksti {
     text-align: center;
+    font-size: 13px;
 }
 
 #logot{
@@ -865,8 +873,8 @@ figcaption {
 }
 
 .logo{
-    width: 3vw;
-    height: 3vw;
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 footer {
