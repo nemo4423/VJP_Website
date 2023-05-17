@@ -465,7 +465,12 @@ figcaption {
     #vinkitjaneuv {
         transform: translate(44%, 0%);
     }
-
+    #vasennappula {
+        display:none;
+    }
+    #oikeanappula {
+        display: none;
+    }
 }
 
 
@@ -666,6 +671,32 @@ figcaption {
     top: -1.5rem;
 }
 
+/*Tämä on somesisällön slide-toimintoa varten yritetty tehdä*/
+@media (max-width: 850px) {
+    .jutut {
+        align-items: center;
+    }
+    #slide-1 {
+        display:none;
+    }
+    #slide-3 {
+        display:none;
+    }
+    #oikeanappula {
+        height: 30px;
+    }
+    #vasennappula {
+        height: 30px;
+    }
+    #oikeanappula:hover {
+        background-color: green;
+    }
+    #vasennappula:hover {
+        background-color: green;
+    }
+
+}
+
 @media (max-width: 680px) {
     .kommentit{
         background-position: 20% 50%;
@@ -676,9 +707,9 @@ figcaption {
     }
 }
 @media (max-width: 500px) {
-    .jutut {
+    /*.jutut {
         display: none;
-    }
+    }*/
 }
 
 
