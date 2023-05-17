@@ -3,12 +3,12 @@ body {display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: black;
+    background-color: #040404;
     margin: auto;
     max-width: 1440px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 36px;
-    color: white;
+    color: rgb(224, 229, 237);
     
     
 }
@@ -16,7 +16,6 @@ body {display: flex;
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 90px; /* Adjust this value to set the desired offset before reaching the anchor point */
-    scroll-snap-type: y mandatory;
 }
 
 a {
@@ -868,12 +867,12 @@ figcaption {
     justify-content: space-between;
     margin-bottom: 5%;
     margin-top: 1%;
-    width: 10vw;
+    width: 80px;
 }
 
 .logo{
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 20px;
+    height: 20px;
 }
 
 footer {
