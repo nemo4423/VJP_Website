@@ -336,18 +336,16 @@ h5 {
     flex-direction: row;    
     align-items: center;
 }
-#bingo {
-    height: 350px;
-    padding: 10px;
-}
-#pysahdy {
+
+#somejutut {
     height:350px;
     padding: 10px;
 }
-#pahkinank {
-    height:350px;
-    padding: 10px;
-    
+@media (max-width: 500px) {
+    #somejutut {
+        height:200px;
+        padding: 0px;
+    }
 }
 
 figure {
