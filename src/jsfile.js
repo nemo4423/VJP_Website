@@ -3,6 +3,7 @@ let numero = 0
 
 let loopkierrokset = 0
 
+
 const n1 = document.getElementById("N1");
 const n2 = document.getElementById("N2");
 const n3 = document.getElementById("N3");
@@ -15,9 +16,17 @@ n3.addEventListener("click", add)
 n4.addEventListener("click", add)
 n5.addEventListener("click", add)
 
+const vasennappi = document.getElementById("vasennappula")
+const oikeanappi = document.getElementById("oikeanappula")
+
+let laskin = 0
+
+vasennappi.addEventListener("click",slide)
+oikeanappi.addEventListener("click",slide)
 
 function add(element) {
-    console.log(element)
+    //console.log(element)
+    console.log(vasennappi)
     if (element.target.id == "N1") {
         numero += 1
     } else if (element.target.id== "N2") {
@@ -85,13 +94,7 @@ function restartAudio() {
 }
 
 
-const vasennappi = document.getElementById("vasennappula")
-const oikeanappi = document.getElementById("oikeanappula")
 
-let laskin = 0
-
-vasennappi.addEventListener("click",slide)
-oikeanappi.addEventListener("click",slide)
 
 //rakennetaan funktio, jolla somesisältö kohdassa olevilla napeilla voidaan vaihtaa sisältöä, joka näkyy.
 //Toimii, kun näyttön leveys on alle 850px. Yli 850px leveydellä pitäisi näkyä kaikki sisällöt kerralla. 
@@ -100,28 +103,28 @@ function slide(element) {
     console.log(element)
     if (element.target.id == "oikeanappula") {
         laskin += 1
-        if (laskin == 0) {
-            document.getElementById("slide-2").style.display = inline;
-            document.getElementById("slide-1").style.display = none;
-            document.getElementById("slide-3").style.display = none;
+        if (laskin === 0) {
+            document.getElementById("slide-2").style.display = "inline";
+            document.getElementById("slide-1").style.display = "none";
+            document.getElementById("slide-3").style.display = "none";
         }
-        else if (laskin == 1) {
-            document.getElementById("slide-2").style.display = none;
-            document.getElementById("slide-1").style.display = none;
-            document.getElementById("slide-3").style.display = inline;
+        else if (laskin === 1) {
+            document.getElementById("slide-2").style.display = "none";
+            document.getElementById("slide-1").style.display = "none";
+            document.getElementById("slide-3").style.display = "inline";
         }
     }
     else if (element.target.id == "vasennappula") {
         laskin -= 1
-        if (laskin == 0) {
-            document.getElementById("slide-2").style.display = inline;
-            document.getElementById("slide-1").style.display = none;
-            document.getElementById("slide-3").style.display = none;
+        if (laskin === 0) {
+            document.getElementById("slide-2").style.display = "inline";
+            document.getElementById("slide-1").style.display = "none";
+            document.getElementById("slide-3").style.display = "none";
         }
-        else if (laskin == -1) {
-            document.getElementById("slide-2").style.display = none;
-            document.getElementById("slide-1").style.display = inline;
-            document.getElementById("slide-3").style.display = none;
+        else if (laskin === -1) {
+            document.getElementById("slide-2").style.display = "none";
+            document.getElementById("slide-1").style.display = "inline";
+            document.getElementById("slide-3").style.display = "none";
         }
     }
 
