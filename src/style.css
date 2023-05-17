@@ -14,8 +14,9 @@ body {display: flex;
 }
 
 html{
-    scroll-behavior: smooth;;
-    
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px; /* Adjust this value to set the desired offset before reaching the anchor point */
+    scroll-snap-type: y mandatory;
 }
 
 a {
