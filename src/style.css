@@ -313,8 +313,8 @@ h5 {
 }
 .jutut {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;    
+    align-items: center;
 }
 #bingo {
     height: 350px;
@@ -333,8 +333,37 @@ figcaption {
     font-size: 12px;
     font-weight: 200;
     width: 200px;
+    height: 45px;
     padding-left: 10px;
 }
+
+#vasennappula {
+    border-radius: 30px;
+        background-color: rgba(75, 75, 75, 0.8);
+        color: white;
+        height: 2rem;
+        width: 2rem;
+        font-size: 0.8rem;
+        border: none;
+        box-shadow: 1px 2px #1f1f1f;
+}
+#oikeanappula {
+    border-radius: 30px;
+        background-color: rgba(75, 75, 75, 0.8);
+        color: white;
+        height: 2rem;
+        width: 2rem;
+        font-size: 0.8rem;
+        border: none;
+        box-shadow: 1px 2px #1f1f1f;
+}
+#oikeanappula:hover {
+    background-color: cadetblue;
+}
+#vasennappula:hover {
+    background-color: cadetblue;
+}
+
 #lataa{
     border-radius: 30px;
     background-color: rgba(75, 75, 75, 0.8);
@@ -472,6 +501,12 @@ figcaption {
     }
     #oikeanappula {
         display: none;
+    }
+    #slide-1 {
+        display:inline;
+    }
+    #slide-3 {
+        display:inline;
     }
 }
 
@@ -684,33 +719,7 @@ figcaption {
     #slide-3 {
         display:none;
     }
-    #oikeanappula {
-        border-radius: 30px;
-        background-color: rgba(75, 75, 75, 0.8);
-        color: white;
-        height: 2rem;
-        width: 2rem;
-        font-size: 0.8rem;
-        border: none;
-        box-shadow: 1px 2px #1f1f1f;
-    }
-    #vasennappula {
-        border-radius: 30px;
-        background-color: rgba(75, 75, 75, 0.8);
-        color: white;
-        height: 2rem;
-        width: 2rem;
-        font-size: 0.8rem;
-        border: none;
-        box-shadow: 1px 2px #1f1f1f;
-    }
-    #oikeanappula:hover {
-        background-color: cadetblue;
-    }
-    #vasennappula:hover {
-        background-color: cadetblue;
-    }
-
+    
 }
 
 @media (max-width: 680px) {

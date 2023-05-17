@@ -99,37 +99,37 @@ function restartAudio() {
 //Toimii, kun näyttön leveys on alle 850px. Yli 850px leveydellä pitäisi näkyä kaikki sisällöt kerralla. 
 
 function slide(element) {
-    if (element.target.id == "oikeanappula") {
-        laskin += 1
-        if (laskin === 0) {
-            document.getElementById("slide-2").style.display = "inline";
-            document.getElementById("slide-1").style.display = "none";
-            document.getElementById("slide-3").style.display = "none";
-            oikeanappi.style.display = "inline";
-            vasennappi.style.display = "inline";
+        if (element.target.id == "oikeanappula") {
+            laskin += 1
+            if (laskin === 0) {
+                document.getElementById("slide-2").style.display = "inline";
+                document.getElementById("slide-1").style.display = "none";
+                document.getElementById("slide-3").style.display = "none";
+                oikeanappi.style.display = "inline";
+                vasennappi.style.display = "inline";
+            }
+            else if (laskin === 1) {
+                document.getElementById("slide-2").style.display = "none";
+                document.getElementById("slide-1").style.display = "none";
+                document.getElementById("slide-3").style.display = "inline";
+                oikeanappi.style.display = "none";
+            }
         }
-        else if (laskin === 1) {
-            document.getElementById("slide-2").style.display = "none";
-            document.getElementById("slide-1").style.display = "none";
-            document.getElementById("slide-3").style.display = "inline";
-            oikeanappi.style.display = "none";
+        else if (element.target.id == "vasennappula") {
+            laskin -= 1
+            if (laskin === 0) {
+                document.getElementById("slide-2").style.display = "inline";
+                document.getElementById("slide-1").style.display = "none";
+                document.getElementById("slide-3").style.display = "none";
+                oikeanappi.style.display = "inline";
+                vasennappi.style.display = "inline";
+            }
+            else if (laskin === -1) {
+                document.getElementById("slide-2").style.display = "none";
+                document.getElementById("slide-1").style.display = "inline";
+                document.getElementById("slide-3").style.display = "none";
+                vasennappi.style.display = "none";
+            }
         }
+   
     }
-    else if (element.target.id == "vasennappula") {
-        laskin -= 1
-        if (laskin === 0) {
-            document.getElementById("slide-2").style.display = "inline";
-            document.getElementById("slide-1").style.display = "none";
-            document.getElementById("slide-3").style.display = "none";
-            oikeanappi.style.display = "inline";
-            vasennappi.style.display = "inline";
-        }
-        else if (laskin === -1) {
-            document.getElementById("slide-2").style.display = "none";
-            document.getElementById("slide-1").style.display = "inline";
-            document.getElementById("slide-3").style.display = "none";
-            vasennappi.style.display = "none";
-        }
-    }
-
-}
