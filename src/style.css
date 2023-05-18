@@ -177,7 +177,7 @@ h2 {
   position: absolute;
   top: 50%;
   left: 51%;
-  transform: translate(-55%, -50%);
+  transform: translate(-55%, -48.3%);
   padding: 10px 10px;
   width: 200px;
   height: 450px;
@@ -545,7 +545,7 @@ figcaption {
     margin: 5vw;
     border-radius: 25px;
     background-color:#2B2B2B;
-    background: linear-gradient(to bottom, #606477, #323941);
+    background: linear-gradient(to bottom, #494c5b, #20242a);
     font-size: 1.4rem;
 }
 
