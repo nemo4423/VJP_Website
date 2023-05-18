@@ -783,6 +783,13 @@ figcaption {
     top: -1.5rem;
 }
 
+#delete {
+    border-radius: 30px;
+    background-color: rgba(169,169,169, 0.8);
+    color: white;
+    display: none;
+}
+
 /*Tämä on somesisällön slide-toimintoa varten yritetty tehdä*/
 @media (max-width: 850px) {
     .jutut {
