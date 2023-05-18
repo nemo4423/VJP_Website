@@ -393,9 +393,10 @@ figcaption {
 }
 
 .kuvalinkki:hover .linkkinappi {
-    opacity: 1;
+    opacity: 0.8;
+    background-color:cadetblue; 
+    /*rgb(45, 59, 74);*/
 }
-
 
 .gif {
     position: relative;
