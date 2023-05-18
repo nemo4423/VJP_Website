@@ -38,7 +38,11 @@ a {
 }
 
 #hamburger{
-    display: none;
+    display: block;
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    z-index: 2;    
     cursor: pointer;
 }
 
@@ -50,6 +54,39 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
+}
+
+#hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+#hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+
+#hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu{
+    position: fixed; 
+    left: -110%;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.nav-item{
+    margin: 1rem 0;
+}
+
+.nav-menu.active{
+    left: 0;
+    top: -1rem;
 }
 
 #container {
@@ -731,7 +768,7 @@ figcaption {
 }
 
 .forms > input{
-    width: 70%;
+    width: 60%;
     height: 1rem;
     padding: 1%;
     border: none; 
@@ -790,6 +827,16 @@ figcaption {
     top: -1.5rem;
 }
 
+#delete {
+    border-radius: 30px;
+    background-color: rgba(169,169,169, 0.8);
+    color: white;
+    display: none;
+}
+#delete:hover {
+    background-color: grey;
+}
+
 /*Tämä on somesisällön slide-toimintoa varten yritetty tehdä*/
 @media (max-width: 850px) {
     .jutut {
@@ -818,46 +865,6 @@ figcaption {
         display: none;
     } */
 
-    #hamburger{
-        display: block;
-        position: fixed;
-        right: 2rem;
-        top: 2rem;
-        z-index: 2;    
-    }
-
-    #hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-
-    #hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    #hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu{
-        position: fixed; 
-        left: -100%;
-        gap: 0;
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.7);
-        width: 90%;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item{
-        margin: 16px 0;
-    }
-
-    .nav-menu.active{
-        left: 0;
-        top: -1rem;
-    }
 }
 
 

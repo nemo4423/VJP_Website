@@ -32,6 +32,9 @@ n5.addEventListener("click", add)
 const vasennappi = document.getElementById("vasennappula")
 const oikeanappi = document.getElementById("oikeanappula")
 
+const poista = document.getElementById("delete")
+poista.addEventListener("click",poistetaan)
+
 let laskin = 0
 
 vasennappi.addEventListener("click",slide)
@@ -82,8 +85,10 @@ function myFunktio() {
     const nimitiedot = document.getElementById("nimi").value
     const viestitiedot = document.getElementById("viesti").value
     const kommentti = document.getElementById("omaKommentti")
+    kommentti.style.display ="inline"
     kommentti.innerHTML = "<p>" + "<b>" + nimitiedot + "</b>" + "<br>" + viestitiedot + "</p>"
     kommentti.classList.add("aikasempiKokemus")
+    document.getElementById("delete").style.display= "inline"
     nimi.value = ""
     viesti.value=""
 }
@@ -91,6 +96,14 @@ function myFunktio() {
 n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
 
 
+
+function poistetaan() {
+    const kommentti = document.getElementById("omaKommentti")
+    kommentti.innerHTML = ""
+    kommentti.classList.remove("aikaisempiKokemus")
+    kommentti.style.display = "none";
+    poista.style.display ="none"
+}
 
 function playAudio() {
     var audio = document.getElementById("my-audio");
