@@ -683,6 +683,10 @@ figcaption {
     padding: 1rem;
 }
 
+.forms {
+    width: 100%;
+}
+
 #kokemuksiaFontti{
     font-size: 1.4rem;
     color: white;
@@ -720,7 +724,7 @@ figcaption {
 }
 
 .forms > input{
-    width: 50%;
+    width: 70%;
     height: 1rem;
     padding: 1%;
     border: none; 
@@ -743,6 +747,7 @@ figcaption {
     box-shadow: 4px 4px #868686;
     font-weight: 520;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     position: relative;
     top: -0.4rem;
 }
