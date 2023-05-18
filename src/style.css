@@ -378,6 +378,8 @@ h5 {
     display: flex;
     flex-direction: row;    
     align-items: center;
+    justify-content: space-around;
+    width: 70vw;
 }
 
 #somejutut {
@@ -393,6 +395,10 @@ h5 {
 
 figure {
     text-align: center; 
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 figcaption {
@@ -608,16 +614,19 @@ figcaption {
         transform: translate(44%, 0%);
     }
     #vasennappula {
-        display:none;
+        display:none !important;
     }
     #oikeanappula {
-        display: none;
+        display: none !important;
     }
     #slide-1 {
-        display:inline;
+        display:inline !important;
     }
     #slide-3 {
-        display:inline;
+        display:inline !important;
+    }
+    #slide-2 {
+        display:inline !important;
     }
 }
 
