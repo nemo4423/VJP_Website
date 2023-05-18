@@ -361,7 +361,7 @@ figcaption {
     text-align: center; 
 }
 
-#slide-1 {
+.kuvalinkki {
     position: relative;
     display: inline-block;
 }
@@ -386,7 +386,7 @@ figcaption {
     margin-bottom: 1rem;
 }
 
-#slide-1:hover .linkkinappi {
+.kuvalinkki:hover .linkkinappi {
     opacity: 1;
 }
 
