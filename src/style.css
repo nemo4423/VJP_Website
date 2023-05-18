@@ -475,27 +475,6 @@ figcaption {
     background-color: cadetblue;
 }
 
-#lataa{
-    border-radius: 30px;
-    background-color: rgba(75, 75, 75, 0.8);
-    color: white;
-    height: 2rem;
-    width: 10rem;
-    font-size: 0.8rem;
-    border: none;
-    box-shadow: 1px 2px #1f1f1f;
-    font-weight: 300;
-    margin-bottom: 1rem;
-}
-
-#lataa:hover{
-    background-color:cadetblue; 
-    /*rgb(45, 59, 74);*/
-
-}
-
-
-
 .Parent {
     display: flex;
     flex-direction: row;
