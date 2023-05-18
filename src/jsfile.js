@@ -1,6 +1,7 @@
 const hamburger = document.getElementById("hamburger")
 const navMenu = document.querySelector(".nav-menu")
 
+//navigaatioon liittyvät js-koodit
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
@@ -54,6 +55,8 @@ let laskin = 0
 vasennappi.addEventListener("click",slide)
 oikeanappi.addEventListener("click",slide)
 
+
+//kyselyn toiminta -funktio
 function add(element) {
     console.log(element)
     if (element.target.id == "N1") {
@@ -95,6 +98,7 @@ const nappula = document.getElementById("sendButton");
 nappula.addEventListener("click", myFunktio)
 //const n = document.getElementsByClassName("nappis")
 
+//kommentti luodaan keskustelupalstalle
 function myFunktio() {
     const nimitiedot = document.getElementById("nimi").value
     const viestitiedot = document.getElementById("viesti").value
@@ -108,10 +112,10 @@ function myFunktio() {
     viesti.value=""
 }
 
-n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
+//n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
 
 
-
+//kommentti poistetaan keskustelupalstalta
 function poistetaan() {
     const kommentti = document.getElementById("omaKommentti")
     kommentti.innerHTML = ""
