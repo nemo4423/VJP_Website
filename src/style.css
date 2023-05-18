@@ -795,6 +795,9 @@ figcaption {
     color: white;
     display: none;
 }
+#delete:hover {
+    background-color: grey;
+}
 
 /*Tämä on somesisällön slide-toimintoa varten yritetty tehdä*/
 @media (max-width: 850px) {
