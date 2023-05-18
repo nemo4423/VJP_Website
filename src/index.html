@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <div id="container">
@@ -64,10 +65,6 @@
 
     <div id="fill"></div>
 
-
-    <!-- Tän kommentin alhaalla olevat puhekuplat samanlaisii ku ylempänä, tehty background imagella. Mun mielest skaalautuu paremmin. Muut puhekuplat voi vaihtaa kans tälläsiksi mun mielestä. T. jaakko -->
-    <!-- Poistin noi vanhat kuplat nyt. 
-        TODO: poista oikeanpuolenpuhekuplateksti css tiedostosta yms turhat tyylittelyt -->
     <div class="tekstarit" id="ekatTekstarit">
         <div class="vasenKupla">
             <p class="vasenTeksti">Nykypäivän digitaalisessa yhteiskunnassa koemme olevamme velvoitettuja olemaan aina tavoitettavissa ja aina tekemässä. Puhelimen laskeminen ja pysähtyminen tuntuu mahdottomalta.</p>
@@ -253,7 +250,6 @@
 
     <div id="fill"></div>
     
-
     <div class="kommentit">
         <div class="formsKommenteille">
             <p id="kokemuksiaFontti">LUKIJOIDEN KOKEMUKSIA</p>
@@ -266,7 +262,6 @@
                     <label for="viesti" class="labelFontti">Viesti:</label>
                     <input type="text" class="kommenttiInput" id="viesti"><br>
                     <button id="sendButton">Lähetä</button>
-
                 </div>
             </div>
 
@@ -274,20 +269,22 @@
                 <div id="omaKommentti">
                 </div>
                 <button id="delete">Poista kommentti</button>
+                <span class="material-symbols-outlined" id="sydan-4">favorite</span>
                 <div class="aikasempiKokemus">
                     <p><b>Matias</b><br>
                         Tuntuu ärsyttävältä ja turhauttavalta, kun olen kertomassa itselleni todella tärkeästä asiasta ja kaverini vaan räplää puhelinta. Tulee sellainen olo, että sanoillani ja asioillani ei ole minkäänlaista merkitystä.</p>
-                </div>
+                        <span class="material-symbols-outlined" id="sydan-1">favorite</span>
+                    </div>
                 <div class="aikasempiKokemus">
                     <p><b>Liisa</b><br>
                         En ollut miettinyt asiaa ennen, kuin törmäsin kampanjaanne. Nyt olen alkanut kiinnittämään huomiota siihen, kun itse käytän puhelinta ja pyrkinyt antamaan täyden huomioni ihmisille, jotka sitä odottavat.  </p>
+                    <span class="material-symbols-outlined" id="sydan-2">favorite</span>
                 </div>
                 <div class="aikasempiKokemus">
                     <p><b>Iina</b><br>
                         Olen huomannut, että kun tulee ilmotuksia puhelimelle ni se häiritsee omaa keskittymistä ihmisten välistä vuorovaikutusta. </p>
+                    <span class="material-symbols-outlined" id="sydan-3">favorite</span>
                 </div>
-                
-
             </div>
         </div>
     </div>
