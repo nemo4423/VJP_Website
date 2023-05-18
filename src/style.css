@@ -1,5 +1,5 @@
-
-body {display: flex;
+body {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -10,6 +10,7 @@ body {display: flex;
     font-size: 14px;
     color: rgb(224, 229, 237);
 }
+
 body::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -17,15 +18,13 @@ body::-webkit-scrollbar {
 
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 90px; /* Adjust this value to set the desired offset before reaching the anchor point */
+    scroll-padding-top: 90px;
 }
 
 a {
     color: inherit;
     text-decoration: inherit;
-
 }
-
 
 .navbar {
     position: fixed;
@@ -104,17 +103,14 @@ ul {
     list-style: none;
 }
 
-
 li {
     padding: 0% 2%;
     font-size: 20px;
-    
 }
 
 #fill {
     height: 30vh;
 }
-
 
 .otsikot {
     width: 100vw;
@@ -133,11 +129,13 @@ h1 {
     box-sizing: border-box;
     position: absolute; top: 38vh;
 }
+
 h2 {
     font-size: 8vw;
     font-weight: 20;
     position: absolute; top: 47vh;
 }
+
 .fade-in {
     opacity: 0;
     animation-fill-mode: forwards;
@@ -169,25 +167,25 @@ h2 {
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 80%; /* make the width 80% of the viewport width */
-    height: 80%; /* make the height 80% of the viewport height */
+    width: 80%;
+    height: 80%; 
     position: relative;
-    margin: auto; /* center the container horizontally */
+    margin: auto; 
   }
   
 .tekstii {
-  position: absolute;
-  top: 50%;
-  left: 51%;
-  transform: translate(-55%, -50%);
-  padding: 10px,10px;
-  width: 200px;
-  height: 450px;
-  overflow-y: scroll; /* enable vertical scrolling */
-  font-size: 12px;
-  font-weight: 100;
-  line-height: 20px;
-  letter-spacing: 0.13em;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-55%, -50%);
+    padding: 10px,10px;
+    width: 200px;
+    height: 450px;
+    overflow-y: scroll;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.13em;
 }
 .tekstii::-webkit-scrollbar {
     display: none;
@@ -207,7 +205,7 @@ h2 {
     opacity: 65%;
     border-radius: 25px;
     z-index: -2;
-  }
+}
   
 .overlay-image {
     display: flex;
@@ -219,7 +217,6 @@ h2 {
     z-index: 2;
 }
 
-
 .tekstarit {
     display: flex;
     flex-direction: column;
@@ -227,20 +224,11 @@ h2 {
     justify-content: space-between;
     max-width: 930px;
 }
+
 #tekstaritpysyysamankokosina {
     padding: 0px 0px 15px;
     scroll-margin-top: 50px;
 }
-
-
-
-/* .oikeanpuolenpuhekuplateksti {
-    position: absolute;
-    transform: translate(-0%, 70%);
-    width: 75vw;
-    max-width: 450px;
-    font-size: 12px; 
-} */
 
 .oikeaKupla {
     position: relative;
@@ -254,14 +242,6 @@ h2 {
     background-position: center;
 }
 
-/* .vasemmanpuolenpuhekuplateksti {
-    position: absolute;
-    transform: translate(-0%,-5%);
-    width: 75vw;
-    max-width: 450px;
-    font-size: 12px; 
-} */
-
 .vasenKupla {
     position: relative;
     transform: translate(-0%,-5%);
@@ -269,7 +249,6 @@ h2 {
     max-width: 450px;
     font-size: 12px; 
     padding-left: 20px;
-    
     background-image: url("images/Vasenkupla.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -293,31 +272,13 @@ h2 {
 }
 
 
-
-
-/* #ekaoikeapuhekupla {
-    transform: translate(-0%, 100%);
-} */
-
 @media (min-width: 370px) {
-/*     .oikeanpuolenpuhekuplateksti {
-        width: 280px;
-        transform: translate(-0%, 80%);
-    } */
 
     .oikeaKupla {
         width: 70vw;
         transform: translate(-0%, 10%);
     }
-
-/*     #ekaoikeapuhekupla {
-        transform: translate(-0%,120%);
-    } */
-    
 }
-
-
-
 
 h3 {
     width: 80vw;
@@ -350,7 +311,6 @@ h5 {
     font-weight: 20;
 }
 .materiaalit {
-
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -386,6 +346,7 @@ h5 {
     height:350px;
     padding: 10px;
 }
+
 @media (max-width: 500px) {
     #somejutut {
         height:200px;
@@ -497,16 +458,12 @@ figcaption {
 #lataa:hover{
     background-color:cadetblue; 
     /*rgb(45, 59, 74);*/
-
 }
-
-
 
 .Parent {
     display: flex;
     flex-direction: row;
 }
-
 
 #skateImg {
     width: 100%;
@@ -518,7 +475,6 @@ figcaption {
     font-size: 18px;
     padding: 20px;
 }
-
 
 @media (min-width: 550px) {
     .tekstarit {
@@ -542,28 +498,11 @@ figcaption {
     h3 {
         width: 60vw
     }
-/*     .oikeanpuolenpuhekuplateksti {
-        left: 47%;
-        font-size: 18px;
-        width: 70vw;
-        transform: translate(-43%,85%);
-    } */
 
     .oikeaKupla {
         font-size: 16px;
         width: 70vw;
     }
-
-
-/*     #ekaoikeapuhekupla {
-        transform: translate(-40%,118%);
-        left: 45%;
-    } */
-
-/*     .vasemmanpuolenpuhekuplateksti {
-        font-size: 16px;
-        transform: translate(-0%, 0%);;
-    } */
 
     .vasenKupla {
         font-size: 16px;
@@ -581,14 +520,6 @@ figcaption {
 }
 
 
-/* @media (min-width: 605px) {
-    #ekaoikeapuhekupla {
-        transform: translate(-40%,150%);
-    }
-
-
-} */
-
 
 @media (min-width: 850px) {
     .tekstarit div:first-child {
@@ -597,19 +528,9 @@ figcaption {
     .tekstarit div:last-child {
       align-self: flex-end;
     }
-/*     .oikeanpuolenpuhekuplateksti {
-        left: 48%;
-        transform: translate(-43%, 85%);
-    } */
     .oikeaKupla {
         transform: translate(-0%, 15%);
     }
-/*     #ekaoikeapuhekupla {
-        left: 47%;  
-    } */
-/*     .vasemmanpuolenpuhekuplateksti {
-        left: 23%;
-    } */
     #vinkitjaneuv {
         transform: translate(44%, 0%);
     }
@@ -630,7 +551,6 @@ figcaption {
     }
 }
 
-
 .kysely {
     width: 80%;
     max-width: 550px;
@@ -642,7 +562,6 @@ figcaption {
     font-size: 1.4rem;
 }
 
-
 #vastausvaihtoehdot {
     width: 100%;
     height: 100%;
@@ -650,9 +569,8 @@ figcaption {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 15px;} 
-
-
+    font-size: 15px;
+} 
 
 .vaihtoehto {
     display: flex;
@@ -661,16 +579,13 @@ figcaption {
     width: 95px;
 }
 
-
 .painikkeet {
     display:flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
 }  
-
-
-        
+  
 .ympyra {
     height: 50px;
     width: 50px;
@@ -688,18 +603,14 @@ figcaption {
         width: 37px;
         height: 37px;
     }
-    
 }
-
 
 @media (max-width: 440px) {
     .ympyra {
         width: 30px;
         height: 30px;
     }
-
 }
-
 
 #kysymys {
     font-weight: 200;
@@ -819,7 +730,6 @@ figcaption {
     padding: 1rem;
     margin: 0.5rem; 
     max-width: 500px;
-    
 }
 
 #aikasemmatKokemukset{
@@ -873,7 +783,6 @@ figcaption {
     #slide-3 {
         display:none;
     }
-    
 }
 
 @media (max-width: 680px) {
@@ -885,18 +794,10 @@ figcaption {
         left: 50%;
     }
 }
-@media (max-width: 500px) {
-    /*.jutut {
-        display: none;
-    } */
-
-}
-
 
 @media (min-width: 680px) {
     .kysely {width: 60%;}
 }
-
 
 .footer-picture {
     position: relative;  
