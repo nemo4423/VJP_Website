@@ -35,6 +35,20 @@ const oikeanappi = document.getElementById("oikeanappula")
 const poista = document.getElementById("delete")
 poista.addEventListener("click",poistetaan)
 
+const sydan1 = document.getElementById("sydan-1")
+
+sydan1.addEventListener("click",tykkaa)
+const sydan2 = document.getElementById("sydan-2")
+
+sydan2.addEventListener("click",tykkaa)
+const sydan3 = document.getElementById("sydan-3")
+
+sydan3.addEventListener("click",tykkaa)
+
+const sydan4 = document.getElementById("sydan-4")
+
+sydan4.addEventListener("click",tykkaa)
+
 let laskin = 0
 
 vasennappi.addEventListener("click",slide)
@@ -89,6 +103,7 @@ function myFunktio() {
     kommentti.innerHTML = "<p>" + "<b>" + nimitiedot + "</b>" + "<br>" + viestitiedot + "</p>"
     kommentti.classList.add("aikasempiKokemus")
     document.getElementById("delete").style.display= "inline"
+    document.getElementById("sydan-4").style.display= "inline"
     nimi.value = ""
     viesti.value=""
 }
@@ -103,6 +118,8 @@ function poistetaan() {
     kommentti.classList.remove("aikaisempiKokemus")
     kommentti.style.display = "none";
     poista.style.display ="none"
+    document.getElementById("sydan-4").style.display= "none"
+    document.getElementById("sydan-4").style.color= "white"
 }
 
 function playAudio() {
@@ -125,7 +142,7 @@ function restartAudio() {
 //Toimii, kun näyttön leveys on alle 850px. Yli 850px leveydellä pitäisi näkyä kaikki sisällöt kerralla. 
 
 function slide(element) {
-        if (element.target.id == "oikeanappula") {
+        if (element.target.id === "oikeanappula") {
             laskin += 1
             if (laskin === 0) {
                 document.getElementById("slide-2").style.display = "inline";
@@ -141,7 +158,7 @@ function slide(element) {
                 oikeanappi.style.display = "none";
             }
         }
-        else if (element.target.id == "vasennappula") {
+        else if (element.target.id === "vasennappula") {
             laskin -= 1
             if (laskin === 0) {
                 document.getElementById("slide-2").style.display = "inline";
@@ -158,4 +175,33 @@ function slide(element) {
             }
         }
    
+    }
+
+    //sydämmen tykkäys-funktio
+
+    function tykkaa(element) {
+        if (element.target.id === "sydan-1") {
+            if (sydan1.style.color === "red") {
+            sydan1.style.color = "white";}
+            else {
+            sydan1.style.color = "red";  
+            }}
+        else if (element.target.id === "sydan-2") {
+            if (sydan2.style.color === "red") {
+            sydan2.style.color = "white";}
+            else {
+            sydan2.style.color = "red";  
+            }}
+        else if (element.target.id === "sydan-3") {
+            if (sydan3.style.color === "red") {
+            sydan3.style.color = "white";}
+            else {
+            sydan3.style.color = "red";  
+            }}
+        else if (element.target.id === "sydan-4") {
+            if (sydan4.style.color === "red") {
+            sydan4.style.color = "white";}
+            else {
+            sydan4.style.color = "red";  
+            }}
     }

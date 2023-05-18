@@ -846,6 +846,22 @@ figcaption {
     background-color: grey;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined:hover {
+    color: red;
+}
+
+#sydan-4 {
+    display:none;
+}
+
+
 /*Tämä on somesisällön slide-toimintoa varten yritetty tehdä*/
 @media (max-width: 850px) {
     .jutut {
