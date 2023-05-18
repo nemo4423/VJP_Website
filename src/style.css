@@ -367,7 +367,7 @@ figcaption {
     text-align: center; 
 }
 
-#slide-1 {
+.kuvalinkki {
     position: relative;
     display: inline-block;
 }
@@ -378,12 +378,21 @@ figcaption {
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 10px 20px;
-    background-color: cadetblue;
     opacity:0;
     transition: opacity 0.3s ease;
+    border-radius: 30px;
+    background-color:  rgba(75, 75, 75, 0.8);
+    color: white;
+    height: 1rem;
+    width: 6rem;
+    font-size: 0.8rem;
+    border: none;
+    box-shadow: 1px 2px #1f1f1f;
+    font-weight: 300;
+    margin-bottom: 1rem;
 }
 
-#slide-1:hover .linkkinappi {
+.kuvalinkki:hover .linkkinappi {
     opacity: 1;
 }
 
@@ -680,6 +689,10 @@ figcaption {
     padding: 1rem;
 }
 
+.forms {
+    width: 100%;
+}
+
 #kokemuksiaFontti{
     font-size: 1.4rem;
     color: white;
@@ -717,7 +730,7 @@ figcaption {
 }
 
 .forms > input{
-    width: 50%;
+    width: 70%;
     height: 1rem;
     padding: 1%;
     border: none; 
@@ -740,6 +753,7 @@ figcaption {
     box-shadow: 4px 4px #868686;
     font-weight: 520;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     position: relative;
     top: -0.4rem;
 }
