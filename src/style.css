@@ -365,13 +365,13 @@ h4 {
     width: 70vw;
 }
 
-#somejutut {
+.somejutut {
     height:350px;
     padding: 10px;
 }
 
 @media (max-width: 500px) {
-    #somejutut {
+    .somejutut {
         height:200px;
         padding: 0px;
     }
