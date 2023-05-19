@@ -13,6 +13,24 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active")
     }))
 
+//esittely 
+
+const heading = document.getElementById('vlogi'); 
+
+const videoContainer = document.getElementById('vlogiContainer'); 
+
+const video = document.getElementById('video'); 
+
+ 
+heading.addEventListener('click', () => { 
+    video.play(); 
+
+    heading.textContent = ''; 
+
+    videoContainer.style.display = 'block'; 
+  } 
+
+) 
 let numero = 0
 
 let loopkierrokset = 0
