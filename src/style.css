@@ -747,6 +747,11 @@ figcaption {
     background-color: grey;
 }
 
+#reagoinnit {
+    display: flex;
+    flex-direction: row;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
