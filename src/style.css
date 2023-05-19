@@ -406,6 +406,13 @@ figcaption {
     /*rgb(45, 59, 74);*/
 }
 
+.gifienlaatikkot {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
 .gif {
     position: relative;
     display: inline-block;
@@ -791,14 +798,23 @@ figcaption {
         width: 80%;
         left: 50%;
     }
-    #spesififigcaption {
-        height: 80px;      /*Erillinen korkeus, jotta skaalautuu nätisti mobiililla. Teksti on niin pidempi verrrattuna muihin*/
-    }
     
 }
 
 @media (min-width: 680px) {
-    .kysely {width: 60%;}
+    .kysely {
+        width: 60%;
+    }
+    
+}
+
+@media (max-width: 780px) {
+    .gifienlaatikkot {
+        flex-direction: column;
+    }
+    #spesififigcaption {
+        height: 80px;      /*Erillinen korkeus, jotta skaalautuu nätisti mobiililla. Teksti on niin pidempi verrrattuna muihin*/
+    }
 }
 
 .footer-picture {
