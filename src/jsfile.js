@@ -21,16 +21,17 @@ const videoContainer = document.getElementById('vlogiContainer');
 
 const video = document.getElementById('video'); 
 
- 
+
 heading.addEventListener('click', () => { 
+    console.log("click")
     video.play(); 
 
     heading.textContent = ''; 
 
     videoContainer.style.display = 'block'; 
   } 
-
 ) 
+
 let numero = 0
 
 let loopkierrokset = 0

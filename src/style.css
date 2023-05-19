@@ -191,6 +191,17 @@ h2 {
     display: none;
 }
 
+#vlogi { 
+    font-size: 1.5rem; 
+} 
+ 
+
+#vlogi:hover { 
+    text-decoration: dashed; 
+    color:cadetblue;  
+    /*rgb(45, 59, 74);*/ 
+} 
+
 #kyselyScroll {
     scroll-margin-top: 50px;
 }
@@ -381,6 +392,7 @@ figcaption {
 }
 
 .linkkinappi {
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
