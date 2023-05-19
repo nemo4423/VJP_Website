@@ -137,6 +137,21 @@ h2 {
     position: absolute; top: 47vh;
 }
 
+h3 {
+    font-size: 32px;
+    font-weight: 20;
+    padding: 10px;
+    text-align: center;
+}
+
+h4 {
+    width: 80vw;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+}
+
 .fade-in {
     opacity: 0;
     animation-fill-mode: forwards;
@@ -294,14 +309,6 @@ h2 {
 
 }
 
-h3 {
-    width: 80vw;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 17px;
-    letter-spacing: 0.1em;
-}
-
 .vinkitjaneuvot {
     width: 80vw;
     font-weight: 200;
@@ -316,16 +323,6 @@ h3 {
     line-height: 17px;
 }
 
-h4 {
-    font-size: 32px;
-    font-weight: 20;
-    padding: 10px;
-}
-h5 {
-    font-size: 32px;
-    font-weight: 20;
-    padding: 10px;
-}
 .materiaalit {
     width: 80vw;
     display: flex;
@@ -504,7 +501,7 @@ figcaption {
     h2 {
         font-size: 44px;
     }
-    h3 {
+    h4 {
         width: 60vw
     }
 
