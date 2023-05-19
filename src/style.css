@@ -316,6 +316,16 @@ h4 {
     line-height: 17px;
 }
 
+.asiantuntijalinkki {
+    font-style: italic;
+    font-size: 0.86rem;
+    color: cadetblue;
+}
+
+.asiantuntijalinkki:hover {
+    font-size: 1.6rem;
+}
+
 .asiantuntijoilta1 {
     width: 80vw;
     font-weight: 200;
@@ -844,6 +854,12 @@ figcaption {
     #mieliRy {
         width: 30vw;
     }
+}
+
+.jaaystavallelinkki:hover {
+    font-size: 1.4rem;
+    color: cadetblue;
+    text-decoration: underline;
 }
 
 .lopputeksti {
