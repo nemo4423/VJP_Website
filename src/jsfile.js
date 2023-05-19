@@ -107,9 +107,8 @@ function add(element) {
     } if (loopkierrokset == 5) {
         document.getElementById("kysymys").innerHTML = "Tuloksesi:"
         document.getElementById("vastausvaihtoehdot").innerHTML = ""
-        var elements = document.getElementsByClassName("painikkeet");
-        for (var i = 0; i < elements.length; i++) {
-            elements[i].innerHTML = "";}          
+        var pallot = document.getElementsByClassName("painikkeet");
+        for (var i = 0; i < pallot.length; i++) {pallot[i].innerHTML = "";}          
         if (numero === 0) {document.getElementById("palsu").innerHTML="Yrititkö edes?"}
         else if (numero < 6 ) {document.getElementById("palsu").innerHTML="<div style='overflow:auto'><img src='images/hand.png' alt='Image description' style='float:right;margin-left:10px;height:200px;'>" + "<p style='margin-left:0;'>Puhelimen käyttösi ei vaikuta olevan haitallista sosiaalisissa tilanteissa. <br><br> Hienoa! Kehoita ystäviäsi toimimaan samoin.</p></div>";}
         else if (numero < 11) {document.getElementById("palsu").innerHTML="<div style='overflow:auto'><img src='images/hand2.png' alt='Image description' style='float:right;margin-left:10px;height:200px;'>" + "<p style='margin-left:0;'>Puhelimen käyttösi ei vaikuta olevan haitallista sosiaalisissa tilanteissa, mutta ihmissuhteidesi laatu voisi parantua, jos kiinnittäisit asiaan enemmän huomiota. <br><br> Voit myös keskustella asiasta ystäviesi kanssa.</p></div>";}
