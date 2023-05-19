@@ -840,6 +840,12 @@ figcaption {
     transform: translate(0%,-80%);  
 }
 
+@media (max-width: 600px) {
+    #mieliRy {
+        width: 30vw;
+    }
+}
+
 .lopputeksti {
     text-align: center;
     font-size: 13px;
