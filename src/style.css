@@ -307,10 +307,12 @@ h3 {
 h4 {
     font-size: 32px;
     font-weight: 20;
+    padding: 10px;
 }
 h5 {
     font-size: 32px;
     font-weight: 20;
+    padding: 10px;
 }
 .materiaalit {
     width: 80vw;
@@ -368,7 +370,7 @@ figcaption {
     font-size: 12px;
     font-weight: 200;
     width: 250px;
-    height: 45px;
+    height: 50px;
     padding-left: 10px;
     text-align: center; 
 }
@@ -789,6 +791,10 @@ figcaption {
         width: 80%;
         left: 50%;
     }
+    #spesififigcaption {
+        height: 80px;      /*Erillinen korkeus, jotta skaalautuu nätisti mobiililla. Teksti on niin pidempi verrrattuna muihin*/
+    }
+    
 }
 
 @media (min-width: 680px) {
