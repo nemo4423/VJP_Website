@@ -114,7 +114,7 @@ const nappula = document.getElementById("sendButton");
 
 
 nappula.addEventListener("click", myFunktio)
-//const n = document.getElementsByClassName("nappis")
+
 
 //kommentti luodaan keskustelupalstalle
 function myFunktio() {
@@ -126,11 +126,12 @@ function myFunktio() {
     kommentti.classList.add("aikasempiKokemus")
     document.getElementById("delete").style.display= "inline"
     document.getElementById("sydan-4").style.display= "inline"
+    document.getElementById("sydan-4").style.color= "white"
     nimi.value = ""
     viesti.value=""
 }
 
-//n.addEventListener("click",function() {console.log("clikc")}) //tää sanoo errorii
+
 
 
 //kommentti poistetaan keskustelupalstalta
