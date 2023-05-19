@@ -32,7 +32,7 @@ heading.addEventListener('click', () => {
   } 
 ) 
 
-//numeroita, joilla lasketaan kierroksia ja pisteitä, joilla kyselyn funktio toimii
+//numeromuuttujat, joilla lasketaan kierroksia ja pisteitä, joilla kyselyn funktio toimii
 let numero = 0
 
 let loopkierrokset = 0
@@ -137,7 +137,6 @@ function myFunktio() {
     nimi.value = ""
     viesti.value=""
 }
-
 
 
 
