@@ -13,7 +13,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active")
     }))
 
-//esittely 
+//esittely: klikkaamalla ostikkoa video, joka esittelee verkkosivut, alkaa pyörimään
 
 const heading = document.getElementById('vlogi'); 
 
@@ -32,6 +32,7 @@ heading.addEventListener('click', () => {
   } 
 ) 
 
+//numeroita, joilla lasketaan kierroksia ja pisteitä, joilla kyselyn funktio toimii
 let numero = 0
 
 let loopkierrokset = 0
@@ -42,19 +43,22 @@ const n2 = document.getElementById("N2");
 const n3 = document.getElementById("N3");
 const n4 = document.getElementById("N4");
 const n5 = document.getElementById("N5");
-
+//jokaiselle kyselyn napille annetaan kyselyn toiminta funktio, ylemmat n1, n2, ja jne ovat nämä napit. add funktio on määritelty rivillä 85
 n1.addEventListener("click", add)
 n2.addEventListener("click", add)
 n3.addEventListener("click", add)
 n4.addEventListener("click", add)
 n5.addEventListener("click", add)
 
+//mobiiliversiossa toimivat nappulat, jotka vaihtaa somesisältöjä
 const vasennappi = document.getElementById("vasennappula")
 const oikeanappi = document.getElementById("oikeanappula")
 
+//kommentinpoisto nappi
 const poista = document.getElementById("delete")
 poista.addEventListener("click",poistetaan)
 
+//kommenttien tykkäykset
 const sydan1 = document.getElementById("sydan-1")
 
 sydan1.addEventListener("click",tykkaa)
@@ -69,13 +73,15 @@ const sydan4 = document.getElementById("sydan-4")
 
 sydan4.addEventListener("click",tykkaa)
 
+//slide (mobiiversion somesisältöä vaihtava funktio) varten luotu muuttuja
 let laskin = 0
 
+//somesisältöä vaihtavat nappulat: lisätty niille funktio
 vasennappi.addEventListener("click",slide)
 oikeanappi.addEventListener("click",slide)
 
 
-//kyselyn toiminta -funktio
+//kyselyn toiminta -funktio: laskee luvun painetusta kyselyn napista ja antaa tuloksen lopuksi niiden perusteella
 function add(element) {
     console.log(element)
     if (element.target.id == "N1") {
@@ -146,6 +152,7 @@ function poistetaan() {
     document.getElementById("sydan-4").style.color= "white"
 }
 
+//ääniteelle toiminta nappulat aloitustarinassa
 function playAudio() {
     var audio = document.getElementById("my-audio");
     audio.play();
@@ -158,8 +165,6 @@ function restartAudio() {
     var audio = document.getElementById("my-audio");
     audio.currentTime = 0;
 }
-
-
 
 
 //rakennetaan funktio, jolla somesisältö kohdassa olevilla napeilla voidaan vaihtaa sisältöä, joka näkyy.
